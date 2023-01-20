@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<head>
+    <script>
+        var myvar="Hi";
+        var age="20";
+
+        let n1=0, n2=1, n3;
+        let number= prompt("number de do");
+
+        document.write("<h1>The 'remainder' of "+ number + " divided by 5 is ");
+        document.write(number%5+".<br></h1>");
+        
+        if(number== 5 ){
+            document.write("Good to go!");
+        }
+        else{ 
+            document.write("Sorry bro, you are getting old.<br>")
+        }
+        
+        function input1(){
+        for(var i=0; i<=number; i++){
+            document.write(n1+"<br>");
+         n3 = n1 + n2;
+         n1 = n2;
+         n2 = n3;        
+          if(n1>1000){
+            break;
+
+         }
+        }
+    }
+input1();
+
+   
+        //  function square(anumber){
+        //     return = anumber * anumber;
+        //     document.write(sq);
+        //  }
+        //  let sq= square(4);
+         
+        // let myarray=[100,10,788];
+        // document.write("before adding: ", myarray.length +"<br>");
+
+
+        // objects
+        // var object1={
+        //     name: "diya",
+
+        //}
+        document.write(object1.name);
+
+         function erase(){
+            let paragraphs= document.querySelectorAll("p");
+            // let y= document.getElementById("names").value;
+            for(
+                var i=0; i<paragraphs.length;i++
+            ){
+                paragraphs[i].innerHTML = "no data here";
+            }
+         }
+        
+    </script>
+    <style>
+    
+    body{
+        text-align: center;
+        background-color: beige;
+        color:brown;
+        font-size: 20px;
+    }
+
+    </style>
+</head>
+<body>
+    <!-- <input id="names";> -->
+    
+    <p>
+        hekjjisjijidos3ijdio3jodij3uwhsuwh
+    </p>
+    <button onclick="erase()"> do not click</button>
+    </body>
+</html>
